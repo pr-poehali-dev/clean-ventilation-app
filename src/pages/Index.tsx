@@ -4,6 +4,7 @@ import Hero from '@/components/Hero';
 import Catalog from '@/components/Catalog';
 import Cart from '@/components/Cart';
 import About from '@/components/About';
+import Reviews from '@/components/Reviews';
 import Consultation from '@/components/Consultation';
 import Contacts from '@/components/Contacts';
 import Footer from '@/components/Footer';
@@ -51,6 +52,7 @@ export default function Index() {
           onClear={handleClearCart}
         />
         <About />
+        <Reviews />
         <Consultation />
         <Contacts />
       </main>
